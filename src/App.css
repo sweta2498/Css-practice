@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: slategrey;
+
+}
+nav {
+  display: flex;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 88px;
+  padding: 0 25px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+
+}
+nav ul li{
+  list-style: none;
+  padding: 0 23px;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  height: 23px;
+  width: 450px;
+  border-radius: 1px ;
+  margin:  0 85px;
+}
+.btn{
+  margin-left: -80px;
+  padding: 3px;
+}
+.btn:hover{
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+
+.loginbtn{
+  display: flex;
+  align-items: center;
+}
+.login{
+  margin-left: 100px;
+  padding: 5px;
+  width: 100px;
+  font-size: 16px;
+}
+.login:hover{
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.more{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 150px;
+  justify-content: center;
+}
+
+.mycartbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mycart{
+  margin-left: 120px;
+  padding: 5px;
+  width: 100px;
+  border: none;
+  background-color: slategrey ;
+  font-size: 16px;
+  color: white;
+}
+.mycart:hover{
+  cursor: pointer;
+}
+
+.container{
+  min-height: calc(100vh-58px-12vh);
+}
+
+.slider{
+  width: 80vh;
+  margin: 15px 180px;
+}
+.my-2{
+  margin-right: 50px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 5px;
+  border: 1px outset;
+  
+}
+.my-1{
+  margin: 5px 0px;
+}
+.card{
+  max-width: 200vh;
+  margin: 10px;
+  border: 1px outset;
+}
+.card-item{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.text-center{
+  text-align: center;
+}
+.footer
+{
+  color: black;
+  background-color: slategrey;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 12vh;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
